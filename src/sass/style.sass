@@ -1,0 +1,48 @@
+*
+    margin: 0
+    padding: 0
+    border: 0
+    outline: 0
+    box-sizing: border-box
+    list-style: none
+
+body
+    height: 100vh
+    background: url(../img/16.JPG) center (center/cover) no-repeat
+    font-family: sans-serif
+
+
+.sidebar
+    width: 360px
+    /*width: 120px*/
+    height: 100%
+    backdrop-filter: blur(6px)
+    -webkit-backdrop-filter: blur(6px)
+    background: rgba(10, 10, 10, 0.65)
+    box-shadow: 0 8px 32px rgb(2, 4, 24)
+    border-right: 2px solid rgba(255, 255, 255, 0.09)
+    &__logo
+        width: 100%
+        height: 240px
+        padding: 40px 0
+        display: grid
+        align-items: center
+        justify-items: center
+    &__img
+        width: 56px
+        /*width: 96px*/
+    &__title
+        color: #fff
+        font-size: 12px
+        /*font-size: 20px*/
+        margin-top: 12px
+        font-variant: small-caps
+        pointer-events: none
+        opacity: 0
+        scale: 0
+.nav
+    padding: 0 30px
+    &__title
+        color: #dadada
+        margin: 40px 0 18px
+        pointer-events: none
