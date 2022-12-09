@@ -14,7 +14,7 @@ body
 
 .sidebar
     width: 360px
-    /*width: 120px*/
+    width: 120px
     height: 100%
     backdrop-filter: blur(6px)
     -webkit-backdrop-filter: blur(6px)
@@ -23,14 +23,14 @@ body
     border-right: 2px solid rgba(255, 255, 255, 0.09)
     &__logo
         width: 100%
-        height: 240px
+        height: 200px
         padding: 40px 0
         display: grid
         align-items: center
         justify-items: center
     &__img
-        width: 56px
-        /*width: 96px*/
+        /*width: 56px*
+        width: 96px
     &__title
         color: #fff
         font-size: 12px
@@ -38,11 +38,29 @@ body
         margin-top: 12px
         font-variant: small-caps
         pointer-events: none
-        opacity: 0
-        scale: 0
+        /*opacity: 0
+        scale: 0*/
 .nav
     padding: 0 30px
     &__title
         color: #dadada
         margin: 40px 0 18px
         pointer-events: none
+    &__item
+        cursor: pointer
+        display: flex
+        align-items: center
+        justify-content: flex-start
+        border-radius: 4px
+        width: 100%
+        height: 56px
+        padding: 0 16px
+        margin: 8px 0
+        color: #fff
+        &:hover
+            background: rgba(255, 255, 255, 0.1)
+.active
+    background: #ff328e !important
+span
+    font-size: 18px
+    margin-left: 8px
